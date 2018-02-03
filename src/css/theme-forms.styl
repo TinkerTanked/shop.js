@@ -3,6 +3,7 @@ checkout
 checkout-card
 checkout-modal
 checkout-shippingaddress
+deposit
 login
 orders
 profile
@@ -10,6 +11,7 @@ register
 reset-password
 reset-password-complete
 shippingaddress
+thankyou
   box-sizing: border-box
 
   *
@@ -25,5 +27,9 @@ shippingaddress
   @import 'form'
   @import 'font'
   @import 'buttons'
+
+  .disabled
+  :disabled
+    opacity: 0.5
 
 @import 'el-controls/src/css/theme-top-level'
